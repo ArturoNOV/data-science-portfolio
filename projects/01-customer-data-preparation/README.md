@@ -46,6 +46,8 @@ No external libraries or datasets are required.
 
 Python script:
 
+```bash
 python project.py
+```
 
 The notebook can be opened with Jupyter Notebook, JupyterLab, or VS Code.

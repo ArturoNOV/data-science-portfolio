@@ -30,12 +30,3 @@ The user can also select an option to include the scatter plot together with the
 The application is deployed publicly on Render and can be accessed here:
 
 [Open the Streamlit application](https://project-sprint7-js21.onrender.com)
-
-## Project structure
-
-The repository includes:
-
-- `app.py` — Streamlit web application.
-- `vehicles_us.csv` — dataset used by the application.
-- `requirements.txt` — required Python libraries.
-- `notebooks/EDA.ipynb` — exploratory data analysis and Plotly visualizations.

@@ -23,3 +23,12 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.log
+
+# Pytest cache
+.pytest_cache/
+
+# Sprint 7 generated exercise outputs
+exercises/sprint-07/lines.txt
+exercises/sprint-07/samsung_items.json
+exercises/sprint-07/image-manipulation/rotated*.png
+exercises/sprint-07/image-manipulation/resized*.png

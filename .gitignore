@@ -32,3 +32,7 @@ exercises/sprint-07/lines.txt
 exercises/sprint-07/samsung_items.json
 exercises/sprint-07/image-manipulation/rotated*.png
 exercises/sprint-07/image-manipulation/resized*.png
+
+# Sprint 8 - large reconstructed datasets
+projects/08-chicago-taxi-rides-analysis/datasets/reproducibility/chicago_taxi_trips_2017_11.csv
+projects/08-chicago-taxi-rides-analysis/datasets/reproducibility/trips.csv

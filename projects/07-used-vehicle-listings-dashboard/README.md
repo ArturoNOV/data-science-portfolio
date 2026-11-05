@@ -29,4 +29,4 @@ The user can also select an option to include the scatter plot together with the
 
 The application is deployed publicly on Render and can be accessed here:
 
-[Open the Streamlit application](https://project-sprint7-js21.onrender.com)
+[Open the Streamlit application](https://used-vehicle-listings-dashboard.onrender.com)

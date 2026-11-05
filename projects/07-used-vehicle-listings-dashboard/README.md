@@ -1,4 +1,4 @@
-# Vehicle Sales Dashboard
+# Used Vehicle Listings Dashboard
 
 ## Project objective
 

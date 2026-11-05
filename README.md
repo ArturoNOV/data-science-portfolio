@@ -42,9 +42,9 @@ Beautiful Soup, lxml
 
 ---
 
-### 2. Vehicle Sales Dashboard
+### 2. Used Vehicle Listings Dashboard
 
-[View project](projects/07-vehicle-sales-streamlit-dashboard/)
+[View project](projects/07-used-vehicle-listings-dashboard/)
 
 Interactive web application for exploring used-vehicle advertisements in the
 United States.
@@ -60,7 +60,7 @@ Highlights:
 **Tools:** Python, pandas, Plotly, Streamlit, Jupyter Notebook
 
 **Live application:**  
-https://project-sprint7-js21.onrender.com
+[Open the live application](https://project-sprint7-js21.onrender.com)
 
 ---
 
@@ -104,9 +104,9 @@ Highlights:
 ## Project Index
 
 | # | Project | Main Focus |
-|---|---|---|
+| --- | --- | --- |
 | 08 | [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) | SQL, PostgreSQL, EDA, statistical testing, reproducibility |
-| 07 | [Vehicle Sales Streamlit Dashboard](projects/07-vehicle-sales-streamlit-dashboard/) | Interactive data application, EDA, visualization |
+| 07 | [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) | Interactive data application, EDA, visualization |
 | 06 | [Video Game Sales Market Analysis](projects/06-video-game-sales-market-analysis/) | EDA, market segmentation, correlation, hypothesis testing |
 | 05 | [Megaline Telecom Plan Revenue Analysis](projects/05-megaline-telecom-plan-revenue-analysis/) | Aggregation, revenue analysis, statistical inference |
 | 04 | [Instacart Grocery Shopping Analysis](projects/04-instacart-grocery-shopping-analysis/) | Multi-table data wrangling, customer behavior, visualization |
@@ -181,7 +181,7 @@ data-science-portfolio/
 │   ├── 04-instacart-grocery-shopping-analysis/
 │   ├── 05-megaline-telecom-plan-revenue-analysis/
 │   ├── 06-video-game-sales-market-analysis/
-│   ├── 07-vehicle-sales-streamlit-dashboard/
+│   ├── 07-used-vehicle-listings-dashboard/
 │   └── 08-chicago-taxi-rides-analysis/
 │
 └── exercises/
@@ -212,7 +212,7 @@ For a quick review, I recommend starting with:
 
 1. [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) —
    strongest current example of SQL, Python, statistics, and reproducibility.
-2. [Vehicle Sales Dashboard](projects/07-vehicle-sales-streamlit-dashboard/) —
+2. [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) —
    interactive application and deployment.
 3. [Video Game Sales Market Analysis](projects/06-video-game-sales-market-analysis/) —
    broader exploratory and statistical analysis.

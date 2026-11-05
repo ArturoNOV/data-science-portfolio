@@ -27,7 +27,7 @@ def read_file(file, **kwargs):
 car_data = read_file('vehicles_us.csv')
 
 # Mostrar un encabezado para la aplicación
-st.header('Análisis exploratorio de datos')
+st.header('Análisis de anuncios de vehículos usados')
 
 # Crear una casilla de verificación
 build_od_dispersion = st.checkbox(

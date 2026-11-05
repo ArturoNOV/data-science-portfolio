@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c1b31">
+  <meta name="robots" content="index,follow">
+  <title>Used Vehicle Listings Dashboard | Python, Streamlit &amp; Plotly</title>
+  <meta name="description" content="Explore a Streamlit dashboard analyzing mileage distributions and price-versus-mileage relationships in US used-vehicle listings. An academic Data Science portfolio project by Arturo Noriega.">
+  <link rel="canonical" href="https://arturonov.github.io/data-science-portfolio/used-vehicle-listings-dashboard/">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:site_name" content="Data Science Portfolio — Arturo Noriega">
+  <meta property="og:url" content="https://arturonov.github.io/data-science-portfolio/used-vehicle-listings-dashboard/">
+  <meta property="og:title" content="Used Vehicle Listings Dashboard | Python, Streamlit &amp; Plotly">
+  <meta property="og:description" content="Interactive mileage and price visualizations using Python, pandas, Streamlit and Plotly. Explore the public demo and source code.">
+  <meta property="og:image" content="https://arturonov.github.io/data-science-portfolio/assets/used-vehicle-listings-dashboard-social.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="topbar"><div class="container nav">
+    <a class="brand" href="../">Arturo Noriega<small>Data Science Portfolio</small></a>
+    <nav class="navlinks" aria-label="Main navigation">
+      <a href="../">Projects</a>
+      <a href="../chicago-taxi/">Chicago Taxi</a>
+      <a href="./" aria-current="page">Vehicle Dashboard</a>
+      <a href="https://github.com/ArturoNOV" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </nav>
+  </div></header>
+
+  <main>
+    <section class="hero"><div class="container"><div class="hero-inner">
+      <span class="eyebrow">Case study · TripleTen academic portfolio project</span>
+      <h1>Used Vehicle<br>Listings Dashboard</h1>
+      <p>Exploring used-vehicle advertisements in the United States through an interactive dashboard that visualizes mileage distributions and the relationship between price and mileage.</p>
+      <div class="pills"><span class="pill">Python</span><span class="pill">pandas</span><span class="pill">Streamlit</span><span class="pill">Plotly</span><span class="pill">Jupyter Notebook</span></div>
+      <div class="actions">
+        <a class="button primary" href="https://used-vehicle-listings-dashboard.onrender.com" target="_blank" rel="noopener noreferrer">Open live dashboard ↗</a>
+        <a class="button outline" href="https://github.com/ArturoNOV/data-science-portfolio/tree/main/projects/07-used-vehicle-listings-dashboard" target="_blank" rel="noopener noreferrer">View source code ↗</a>
+      </div>
+    </div></div></section>
+
+    <section class="section tight"><div class="container">
+      <div class="section-head"><span class="kicker">What the application explores</span><h2>From listings to visual exploration</h2><p>The application focuses on two straightforward analytical questions. Its charts are exploratory visualizations, not a vehicle-price prediction model.</p></div>
+      <div class="grid">
+        <article class="card feature"><div class="iconchip" aria-hidden="true">▥</div><span class="meta">01 · Histogram</span><h3>How is mileage distributed?</h3><p>Generate a Plotly histogram of vehicle odometer readings to examine the mileage distribution.</p></article>
+        <article class="card feature"><div class="iconchip" aria-hidden="true">↗</div><span class="meta">02 · Scatter plot</span><h3>How do price and mileage relate?</h3><p>Optionally display a scatter plot of advertised vehicle prices against odometer readings.</p></article>
+        <article class="card feature"><div class="iconchip" aria-hidden="true">▣</div><span class="meta">03 · Interaction</span><h3>How can visitors explore?</h3><p>Select whether to include the scatter plot, then use the build button to generate the charts.</p></article>
+      </div>
+    </div></section>
+
+    <section class="section alternate" id="approach"><div class="container">
+      <div class="section-head"><span class="kicker">Methodology and implementation</span><h2>From CSV to interactive web application</h2><p>The project includes a supporting exploratory analysis notebook as well as a deployed Streamlit app.</p></div>
+      <div class="timeline">
+        <article class="step"><div class="num">01 · Load</div><h3>Data with pandas</h3><p>Load the used-vehicle listings CSV file for exploratory analysis and interactive visualization.</p></article>
+        <article class="step"><div class="num">02 · Explore</div><h3>Plotly charts</h3><p>Display mileage distributions and inspect the relationship between price and mileage.</p></article>
+        <article class="step"><div class="num">03 · Publish</div><h3>Streamlit and Render</h3><p>Expose the charts in a Streamlit interface and make the app available through Render.</p></article>
+      </div>
+      <div class="note"><strong>Analytical scope and limitations.</strong><p>This is a TripleTen academic portfolio project. It does not establish a causal relationship between mileage and price, build a predictive valuation model, or demonstrate a production machine-learning deployment.</p></div>
+    </div></section>
+
+    <section class="section"><div class="container"><div class="case-layout">
+      <div>
+        <span class="kicker">Explore the work</span><h2>Launch the dashboard or inspect its code</h2>
+        <p>The public Streamlit application generates a mileage histogram and can optionally include a price-versus-mileage scatter plot. The application's current interface labels are in Spanish.</p>
+        <p>The reorganized GitHub project includes <code>app.py</code>, the <code>EDA.ipynb</code> exploratory notebook, the dataset, and <code>requirements.txt</code>.</p>
+        <div class="linkrow">
+          <a href="https://used-vehicle-listings-dashboard.onrender.com" target="_blank" rel="noopener noreferrer">Open live Streamlit app ↗</a>
+          <a href="https://github.com/ArturoNOV/data-science-portfolio/tree/main/projects/07-used-vehicle-listings-dashboard" target="_blank" rel="noopener noreferrer">Project files on GitHub ↗</a>
+          <a href="https://github.com/ArturoNOV/data-science-portfolio/blob/main/projects/07-used-vehicle-listings-dashboard/README.md" target="_blank" rel="noopener noreferrer">Project README ↗</a>
+        </div>
+      </div>
+      <aside class="sidebox"><h3>Technologies</h3>
+        <ul><li>Python and pandas</li><li>Plotly interactive charts</li><li>Streamlit interface</li><li>Jupyter Notebook</li><li>Render hosting</li></ul>
+        <div class="divider"></div>
+        <h3>Repository contents</h3><ul><li>Streamlit application code</li><li>Exploratory analysis notebook</li><li>Used-vehicle listings dataset</li><li>Dependencies and documentation</li></ul>
+      </aside>
+    </div></div></section>
+
+    <section class="section alternate"><div class="container">
+      <div class="section-head"><span class="kicker">Continue exploring</span><h2>More from the Data Science Portfolio</h2></div>
+      <div class="grid two">
+        <article class="card feature"><span class="meta">Portfolio</span><h3>Other Data Science projects</h3><p>Python, SQL, exploratory analysis, and statistical testing applied to academic business problems.</p><a class="go" href="../">Visit the portfolio homepage →</a></article>
+        <article class="card feature"><span class="meta">SQL · Statistics</span><h3>Chicago Taxi Rides Analysis</h3><p>SQL-based analysis and hypothesis testing, with a separately documented PostgreSQL reconstruction.</p><a class="go" href="../chicago-taxi/">Read the Chicago Taxi case study →</a></article>
+      </div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="container"><span>© 2026 Arturo Noriega · Academic and independent portfolio work</span><span><a href="https://github.com/ArturoNOV" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/arturo-noriega-del-valle-4609695/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a></span></div></footer>
+</body>
+</html>

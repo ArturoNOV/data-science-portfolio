@@ -19,7 +19,29 @@ reproducible, and connected to practical business questions.
 
 ## Featured Projects
 
-### 1. Megaline Mobile Plan Classification
+### 1. Beta Bank Customer Churn Prediction
+
+[View project](projects/11-beta-bank-customer-churn-prediction/)
+
+Supervised machine learning project focused on predicting customer churn from
+imbalanced data using preprocessing, model comparison, hyperparameter tuning,
+class weighting, and upsampling.
+
+Highlights:
+
+- Prepared independent training, validation, and test datasets.
+- Treated missing values without using information from reserved datasets.
+- Applied One-Hot Encoding and feature standardization.
+- Compared Decision Tree, Random Forest, and Logistic Regression models.
+- Evaluated class weighting and upsampling strategies.
+- Selected an upsampled Random Forest with a validation F1 of 0.6384.
+- Achieved a final test F1 of 0.6250 and AUC-ROC of 0.8655.
+
+**Tools:** Python, pandas, scikit-learn, Jupyter Notebook
+
+---
+
+### 2. Megaline Mobile Plan Classification
 
 [View project](projects/10-megaline-mobile-plan-classification/)
 
@@ -40,7 +62,7 @@ Highlights:
 
 ---
 
-### 2. Chicago Taxi Rides Analysis
+### 3. Chicago Taxi Rides Analysis
 
 [View project](projects/08-chicago-taxi-rides-analysis/)
 
@@ -64,7 +86,7 @@ Beautiful Soup, lxml
 
 ---
 
-### 3. Used Vehicle Listings Dashboard
+### 4. Used Vehicle Listings Dashboard
 
 [View project](projects/07-used-vehicle-listings-dashboard/)
 
@@ -86,7 +108,7 @@ Highlights:
 
 ---
 
-### 4. Video Game Sales Market Analysis
+### 5. Video Game Sales Market Analysis
 
 [View project](projects/06-video-game-sales-market-analysis/)
 
@@ -105,10 +127,29 @@ Highlights:
 
 ---
 
+### 6. Megaline Telecom Plan Revenue Analysis
+
+[View project](projects/05-megaline-telecom-plan-revenue-analysis/)
+
+Statistical analysis of customer usage and monthly revenue for two fictional
+telecommunications plans.
+
+Highlights:
+
+- Aggregated calls, messages, and internet usage at the monthly customer level.
+- Calculated customer revenue from plan rules and excess usage.
+- Compared customer behavior and revenue distributions.
+- Used Welch's t-tests to evaluate differences in average monthly revenue.
+
+**Tools:** Python, pandas, NumPy, Matplotlib, SciPy
+
+---
+
 ## Project Index
 
 | # | Project | Main Focus |
 | --- | --- | --- |
+| 11 | [Beta Bank Customer Churn Prediction](projects/11-beta-bank-customer-churn-prediction/) | Imbalanced classification, F1, AUC-ROC, resampling, hyperparameter tuning |
 | 10 | [Megaline Mobile Plan Classification](projects/10-megaline-mobile-plan-classification/) | Supervised classification, model comparison, hyperparameter tuning, baseline evaluation |
 | 08 | [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) | SQL, PostgreSQL, EDA, statistical testing, reproducibility |
 | 07 | [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) | Interactive data application, EDA, visualization |
@@ -161,11 +202,17 @@ Across the current projects, this portfolio includes practical work with:
 - Feature and target separation
 - Train, validation, and test dataset design
 - Stratified dataset splitting
+- Missing-value imputation
+- One-Hot Encoding
+- Feature standardization
 - Decision trees
 - Random forests
 - Logistic regression
 - Hyperparameter tuning
-- Accuracy-based model comparison
+- Class imbalance analysis
+- Class weighting
+- Upsampling
+- Accuracy, F1, and AUC-ROC evaluation
 - Majority-class baseline evaluation
 - Final testing on previously unseen data
 
@@ -202,7 +249,8 @@ data-science-portfolio/
 │   ├── 06-video-game-sales-market-analysis/
 │   ├── 07-used-vehicle-listings-dashboard/
 │   ├── 08-chicago-taxi-rides-analysis/
-│   └── 10-megaline-mobile-plan-classification/
+│   ├── 10-megaline-mobile-plan-classification/
+│   └── 11-beta-bank-customer-churn-prediction/
 │
 └── exercises/
     ├── sprint-02/
@@ -211,7 +259,8 @@ data-science-portfolio/
     ├── sprint-05/
     ├── sprint-06/
     ├── sprint-07/
-    └── sprint-10/
+    ├── sprint-10/
+    └── sprint-11/
 ```
 
 Sprint 9 contained theory and career-preparation material rather than a
@@ -234,15 +283,14 @@ so that practice material does not obscure the portfolio projects.
 
 For a quick review, I recommend starting with:
 
-1. [Megaline Mobile Plan Classification](projects/10-megaline-mobile-plan-classification/) —
-   supervised machine learning, model comparison, hyperparameter tuning, and
-   baseline evaluation.
-2. [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) —
+1. [Beta Bank Customer Churn Prediction](projects/11-beta-bank-customer-churn-prediction/) —
+   imbalanced classification, F1/AUC-ROC evaluation, resampling, and model tuning.
+2. [Megaline Mobile Plan Classification](projects/10-megaline-mobile-plan-classification/) —
+   supervised classification, model comparison, and baseline evaluation.
+3. [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) —
    SQL, Python, statistics, and reproducibility.
-3. [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) —
+4. [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) —
    interactive application and deployment.
-4. [Video Game Sales Market Analysis](projects/06-video-game-sales-market-analysis/) —
-   broader exploratory and statistical analysis.
 
 Each project README explains the objective, methodology, technologies, and
 execution instructions in more detail.

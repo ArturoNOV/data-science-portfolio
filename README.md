@@ -5,7 +5,8 @@ through hands-on training and independent portfolio work.
 
 The projects document my progression from Python fundamentals and data
 preparation to exploratory data analysis, statistical inference, SQL,
-reproducible data workflows, and interactive applications.
+reproducible data workflows, interactive applications, and supervised machine
+learning.
 
 My goal is to present work that is not only technically correct, but also clear,
 reproducible, and connected to practical business questions.
@@ -18,7 +19,28 @@ reproducible, and connected to practical business questions.
 
 ## Featured Projects
 
-### 1. Chicago Taxi Rides Analysis
+### 1. Megaline Mobile Plan Classification
+
+[View project](projects/10-megaline-mobile-plan-classification/)
+
+Supervised machine learning project for predicting whether customer usage
+patterns correspond to the Smart or Ultra mobile plan in a fictional
+telecommunications scenario.
+
+Highlights:
+
+- Prepared stratified training, validation, and test datasets.
+- Compared Decision Tree, Random Forest, and Logistic Regression classifiers.
+- Tuned model hyperparameters using validation performance.
+- Selected a Random Forest model with a validation accuracy of 0.8320.
+- Achieved a final test accuracy of 0.8149.
+- Compared the final model against a majority-class baseline of 0.6936.
+
+**Tools:** Python, pandas, scikit-learn, Jupyter Notebook
+
+---
+
+### 2. Chicago Taxi Rides Analysis
 
 [View project](projects/08-chicago-taxi-rides-analysis/)
 
@@ -42,7 +64,7 @@ Beautiful Soup, lxml
 
 ---
 
-### 2. Used Vehicle Listings Dashboard
+### 3. Used Vehicle Listings Dashboard
 
 [View project](projects/07-used-vehicle-listings-dashboard/)
 
@@ -60,11 +82,11 @@ Highlights:
 **Tools:** Python, pandas, Plotly, Streamlit, Jupyter Notebook
 
 **Live application:**  
-[Open the live application](https://project-sprint7-js21.onrender.com)
+[Open the live application](https://used-vehicle-listings-dashboard.onrender.com)
 
 ---
 
-### 3. Video Game Sales Market Analysis
+### 4. Video Game Sales Market Analysis
 
 [View project](projects/06-video-game-sales-market-analysis/)
 
@@ -83,28 +105,11 @@ Highlights:
 
 ---
 
-### 4. Megaline Telecom Plan Revenue Analysis
-
-[View project](projects/05-megaline-telecom-plan-revenue-analysis/)
-
-Statistical analysis of customer usage and monthly revenue for two fictional
-telecommunications plans.
-
-Highlights:
-
-- Aggregated calls, messages, and internet usage at the monthly customer level.
-- Calculated customer revenue from plan rules and excess usage.
-- Compared customer behavior and revenue distributions.
-- Used Welch's t-tests to evaluate differences in average monthly revenue.
-
-**Tools:** Python, pandas, NumPy, Matplotlib, SciPy
-
----
-
 ## Project Index
 
 | # | Project | Main Focus |
 | --- | --- | --- |
+| 10 | [Megaline Mobile Plan Classification](projects/10-megaline-mobile-plan-classification/) | Supervised classification, model comparison, hyperparameter tuning, baseline evaluation |
 | 08 | [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) | SQL, PostgreSQL, EDA, statistical testing, reproducibility |
 | 07 | [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) | Interactive data application, EDA, visualization |
 | 06 | [Video Game Sales Market Analysis](projects/06-video-game-sales-market-analysis/) | EDA, market segmentation, correlation, hypothesis testing |
@@ -150,6 +155,20 @@ Across the current projects, this portfolio includes practical work with:
 - Levene's test
 - Statistical interpretation
 
+### Machine Learning
+
+- Supervised classification
+- Feature and target separation
+- Train, validation, and test dataset design
+- Stratified dataset splitting
+- Decision trees
+- Random forests
+- Logistic regression
+- Hyperparameter tuning
+- Accuracy-based model comparison
+- Majority-class baseline evaluation
+- Final testing on previously unseen data
+
 ### SQL and Data Reproducibility
 
 - PostgreSQL
@@ -182,7 +201,8 @@ data-science-portfolio/
 │   ├── 05-megaline-telecom-plan-revenue-analysis/
 │   ├── 06-video-game-sales-market-analysis/
 │   ├── 07-used-vehicle-listings-dashboard/
-│   └── 08-chicago-taxi-rides-analysis/
+│   ├── 08-chicago-taxi-rides-analysis/
+│   └── 10-megaline-mobile-plan-classification/
 │
 └── exercises/
     ├── sprint-02/
@@ -190,8 +210,12 @@ data-science-portfolio/
     ├── sprint-04/
     ├── sprint-05/
     ├── sprint-06/
-    └── sprint-07/
+    ├── sprint-07/
+    └── sprint-10/
 ```
+
+Sprint 9 contained theory and career-preparation material rather than a
+portfolio project, so there is intentionally no Sprint 9 project directory.
 
 ### `projects/`
 
@@ -210,14 +234,15 @@ so that practice material does not obscure the portfolio projects.
 
 For a quick review, I recommend starting with:
 
-1. [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) —
-   strongest current example of SQL, Python, statistics, and reproducibility.
-2. [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) —
+1. [Megaline Mobile Plan Classification](projects/10-megaline-mobile-plan-classification/) —
+   supervised machine learning, model comparison, hyperparameter tuning, and
+   baseline evaluation.
+2. [Chicago Taxi Rides Analysis](projects/08-chicago-taxi-rides-analysis/) —
+   SQL, Python, statistics, and reproducibility.
+3. [Used Vehicle Listings Dashboard](projects/07-used-vehicle-listings-dashboard/) —
    interactive application and deployment.
-3. [Video Game Sales Market Analysis](projects/06-video-game-sales-market-analysis/) —
+4. [Video Game Sales Market Analysis](projects/06-video-game-sales-market-analysis/) —
    broader exploratory and statistical analysis.
-4. [Megaline Telecom Plan Revenue Analysis](projects/05-megaline-telecom-plan-revenue-analysis/) —
-   business-oriented aggregation and hypothesis testing.
 
 Each project README explains the objective, methodology, technologies, and
 execution instructions in more detail.
